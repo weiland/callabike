@@ -1,13 +1,13 @@
 {
   "name": "callabike",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript Callabike client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "pasweiland@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "soap": "^0.9.1"
   },
