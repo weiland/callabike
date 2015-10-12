@@ -33,6 +33,11 @@ function setUser(phone, password) {
 }
 
 function rent(bikeId) {
+  request('CABSERVER.rentBike', {
+    CommonParams: commonParams,
+    CustomerData: customerData,
+    BikeNumber: bikeId
+  });
 }
 
 function getCustomerInfo() {
