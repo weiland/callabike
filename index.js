@@ -6,7 +6,7 @@ const lang = {
   English: 2
 };
 
-var cabClient;
+let cabClient;
 
 const commonParams = {
   customerData: {
@@ -18,8 +18,7 @@ const commonParams = {
   Version: 1
 };
 
-var customerData = {};
-
+let customerData = {};
 
 exports.setUser = setUser;
 exports.getCustomerInfo = getCustomerInfo;
@@ -79,7 +78,7 @@ function invoke(client, endpoint, args) {
 
 // helper
 function getCurrentDate() {
-  var date = new Date();
+  const date = new Date();
   return date;
 }
 
